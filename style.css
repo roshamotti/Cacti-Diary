@@ -6,7 +6,6 @@ Version: 1.0
 
 img {
 	max-width: 100%;
-	margin:auto;
 }
 
 h1 {
@@ -54,7 +53,9 @@ section > section {
 	margin-right: auto;
 	line-height: 1.5em;
 }
-
+section > section img{
+	margin:auto;
+}
 section > section h1 {
 	font-size: 2em;
 }
