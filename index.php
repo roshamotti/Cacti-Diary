@@ -9,12 +9,7 @@
 	<body>
 		<header>
 			<a href='<?php the_permalink(); ?>'><h1> <?php bloginfo('name');?> </h1> </a>
-			<nav>
-				<ul>
-					<li>Home</li>
-					<li>WordPress</li>
-				</ul>
-			</nav>
+		    <?php wp_nav_menu( array( 'menu' => 'Main Nav') ); ?>
 		</header>
 		<section>
 			<img src="<?php bloginfo('stylesheet_directory');?>/images/hero.png" />
